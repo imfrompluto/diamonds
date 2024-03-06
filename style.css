@@ -1,0 +1,228 @@
+/* font-family: "Poppins", sans-serif; */
+/* font-family: "Playfair Display", serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: calc(100% - 20px);
+    max-width: 1200px;
+    margin: auto;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header a{
+    color: #333;
+    text-decoration: none;
+    padding: 0 10px;
+    line-height: 40px;
+    display: block;
+}
+
+#logo{
+    width: 50px;
+    height: 50px;
+    display: block;
+    background-image: url("img/diamond.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 0;
+}
+
+header button{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    background-size:50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: 1px solid #acacac;
+    transition: .7s;
+
+}
+
+h2{
+    color: #222;
+}
+a{
+    text-decoration: none;
+    color: #333;
+} 
+
+#searchbtn{
+    background-image: url("img/search.svg");
+}
+
+#basketbtn{
+    background-image: url("img/bag.svg");
+}
+
+#heartbtn{
+    background-image: url("img/heart.svg");
+}
+
+#profilebtn{
+    background-image: url("img/avatar-people-profile-svgrepo-com.svg");
+}
+
+.upperright{
+    display: flex;
+}
+
+header #lower{
+    padding: 20px 0;
+}
+
+button:hover, a:hover{
+    
+    background-color: #eeeeee;
+    cursor: pointer;
+}
+
+.upperleft{
+    display: flex;
+}
+
+#upper{
+    border-bottom: 1px solid #acacac;
+}
+
+nav{
+    display: flex;
+}
+
+#heart {
+    background-image: url("img/heart.svg");
+    top: 30px;
+ 
+}
+  #basket{
+    background-image: url("img/bag.svg");
+    top: 90px;
+  }
+
+.rightbtn{
+    background: #ffffff;
+    width: 100px;
+    height: 50px;
+    border-radius: 100px 0 0 100px;
+    background-size: 20%;
+    background-repeat: no-repeat;
+    background-position: center;
+    right: 0;
+    position: absolute;
+    border: none;
+}
+
+#hero video{
+    width: 100%;
+}
+
+#heroinfo img{
+    width: 20px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+
+#heroinfo{
+    position: absolute;
+    bottom: 50%;
+    transform: translateY(100%);
+    width: 100%;
+ 
+
+}
+
+#heroinfo h5, #heroinfo h2{
+    font-family: "Playfair Display", serif; 
+    color: white;
+    font-weight:lighter;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+#heroinfo h2{
+    font-size: 40px;
+    
+}
+
+
+#heroinfo a{
+    color: white;
+    text-decoration: none;
+    margin-top: 150px;
+    display: inline-block;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+#hero{
+    position: relative;
+}
+
+h3{
+    /* font-family: "Playfair Display", serif; */
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    
+}
+
+#categories .container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+#categories h2{
+    width: 100%;
+    margin: 90px 0 40px;
+    font-weight: 200;
+}
+
+#categories img{
+    width: 100%;
+}
+
+.category{
+    width: calc(100% / 3 - 20px);
+}
+.category:nth-child(3){
+    margin: 0 20px;
+
+}
+
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project{
+    width: 50%;
+    height: 500px;
+    background-image: url("img/men.webp");
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.taro{
+    background-image: url("img/side.webp");
+}
+
+.charity{
+    background-image: url("img/charity.webp");
+}
+
+.objects{
+    background-image: url("img/books.webp");
+}
