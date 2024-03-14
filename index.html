@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
-<body>
+
+<body onload="myFunction()">
     <header>
         <div id="upper">
             <div class="container">
@@ -29,51 +33,51 @@
         </div>
         <div id="lower">
             <div class="container">
-            <a id="logo" href=""></a>
-            <nav>
-                <a href="">new items</a>
-                <a href="">catalog</a>
-                <a href="">certificate</a>
-                <a href="">+ buyers</a>
-            </nav>
+                <a id="logo" href=""></a>
+                <nav>
+                    <a href="">new items</a>
+                    <a href="">catalog</a>
+                    <a href="">certificate</a>
+                    <a href="">+ buyers</a>
+                </nav>
+            </div>
         </div>
-    </div>
-</header>
+    </header>
     <div id="hero">
         <video width="400" autoplay loop>
             <source src="img/0.mp4" type="video/mp4">
-          
+
             Your browser does not support HTML video.
-          </video>
-          <div id="heroinfo">
+        </video>
+        <div id="heroinfo">
             <div class="container">
                 <h2>DIAMOND</h2>
                 <h5>laconic jewellery</h5>
                 <a href="">NEW <img src="img/arrow-right-up.svg" alt=""></a>
             </div>
-          </div>
+        </div>
         <button class="rightbtn" id="heart"></button>
         <button class="rightbtn" id="basket"></button>
     </div>
     <div id="categories">
-        <div class="container" >
+        <div class="container">
             <h2>CATEGORIES</h2>
             <a href="" class="category">
                 <img src="img/sergi.webp" alt="">
                 <h3>earrings</h3>
             </a>
-            <a href="" class="category" >
+            <a href="" class="category">
                 <img src="img/rings.webp" alt="">
                 <h3>rings</h3>
             </a>
-            <a href=""  class="category">
+            <a href="" class="category">
                 <img src="img/colier.webp" alt="">
                 <h3>necklaces</h3>
             </a>
         </div>
     </div>
     <div id="projects">
-        <div class="project">
+        <div class="project man">
             <div class="projectinfo">
                 <h3>MALE JEWELLERY</h3>
                 <a href="">look at collection</a>
@@ -98,7 +102,138 @@
             </div>
         </div>
     </div>
-<script src="script.js"></script>
+    <div class="container">
+        <div id="hitdeals">
+            <div id="hitdealstop">
+                <h2>HIT DEALS</h2>
+                <a href="">CATALOG<img src="img/arrow-right-up.svg" alt=""></a>
+            </div>
+            <div id="slidercontainer">
+                <div class="slider">
+                    <form class="slide">
+                        <div class="slidetop">
+                            <button></button>
+                            <img src="img/0.webp" alt="">
+                            <div class="lines">
+                                <div class="line darkline"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <h5>RING 128</h5>
+                        <h5>£16</h5>
+                        <h6>piercing for lips</h6>
+                    </form>
+                    <form class="slide">
+                        <div class="slidetop">
+                            <button></button>
+                            <img src="img/sergi.webp" alt="">
+                            <div class="lines">
+                                <div class="line darkline"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <h5>AUDREY</h5>
+                        <h5>£35</h5>
+                        <h6>earrings</h6>
+                    </form>
+                    <form class="slide">
+                        <div class="slidetop">
+                            <button></button>
+                            <img src="img/1.webp" alt="">
+                            <div class="lines">
+                                <div class="line darkline"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <h5>BRANCHES</h5>
+                        <h5>£40</h5>
+                        <h6>wide structural ring</h6>
+                    </form>
+                    <form class="slide">
+                        <div class="slidetop">
+                            <button></button>
+                            <img src="img/2.webp" alt="">
+                            <div class="lines">
+                                <div class="line darkline"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <h5>ORBITAL</h5>
+                        <h5>£15</h5>
+                        <h6>bracelet</h6>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="aboutus">
+        <div class="container">
+            <h2>ABOUT US</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dicta ab sapiente at ex quisquam debitis
+                eveniet. Delectus, accusamus. Tempore quas voluptatibus omnis hic molestiae aliquam sunt similique enim
+                magni eius!
+                Excepturi, omnis quasi illo hic illum dolore quis ducimus libero quos unde consectetur quod itaque
+                repudiandae provident molestias natus repellat praesentium optio reiciendis sunt officiis tenetur
+                possimus rerum. Placeat, sed?
+                Harum inventore, corrupti dolorem veniam ipsam qui recusandae dicta eaque mollitia, provident quia
+                distinctio doloremque reprehenderit dolorum quae maiores laboriosam fugiat laborum eum fuga voluptates
+                veritatis voluptas porro! Doloribus, error.
+                <br><br>
+                Blanditiis inventore amet sed repellendus illo, ex ullam voluptatem cupiditate sunt placeat nobis ipsam
+                dolorum corporis sapiente recusandae dignissimos reiciendis doloremque, fugiat, hic atque. Saepe
+                incidunt dolore nulla dolores animi?
+                Debitis commodi exercitationem tempore aperiam distinctio deserunt quasi, ullam quisquam cum fugit
+                eligendi voluptates est deleniti optio sit sequi dicta a ex quibusdam delectus. Praesentium veniam vitae
+                quia aspernatur accusamus.
+                Reiciendis, nemo explicabo officiis illo iste sit quo enim ex inventore ipsam voluptatibus deserunt
+                officia in mollitia similique pariatur! Perspiciatis quae eos similique facilis ducimus magni, velit
+                nisi eaque odit?
+                Aliquid cum expedita atque commodi debitis voluptate modi, exercitationem nisi. Enim libero aperiam sit,
+                aspernatur autem molestiae illo quibusdam voluptatibus adipisci commodi. Ut possimus praesentium
+                accusantium enim aut quae voluptates?
+                <br><br>
+                Dolores, sint minus. Totam, eligendi, repudiandae tenetur iure maxime magnam soluta aut eveniet deserunt
+                quasi perferendis cumque id beatae exercitationem quaerat eaque inventore nulla similique dignissimos.
+                Quia excepturi distinctio omnis?
+                <br><br>
+                Asperiores cumque officia aut praesentium voluptate inventore aperiam accusantium perspiciatis quae,
+                rerum cupiditate corporis totam mollitia. Cumque dolor debitis provident, praesentium veniam, commodi
+                porro ipsam consequuntur, laborum cupiditate fugiat eveniet.
+                Voluptatibus, eius explicabo? Corrupti tempore eligendi repellat quas quia officia voluptates
+                necessitatibus neque! Maiores aliquid impedit, atque nisi dolorum fuga deleniti, provident error magni
+                nesciunt hic commodi voluptate est delectus?
+            </p>
+        </div>
+    </div>
+    <div class="greysection">
+        <div class="container">
+            <div class="certificate">
+                <h1>GIFTED <br>
+                    &nbsp; &nbsp; &nbsp; &nbsp; CERTIFICATES</h1>
+                <a href="">PURCHASE<img src="img/arrow-right-up.svg" alt=""></a>
+            </div>
+            <img src="img/1.jpg.webp" alt="">
+        </div>
+    </div>
+    <form class="email">
+        <h3>SUBSCRIBE TO THE NEWSLETTER TO BE THE FIRST <br>
+            TO FIND OUT ABOUT NEW ITEMS, SEASONAL SALES AND <br>
+            SECRET PROMO CODES</h3>
+        <div class="container">
+            <input type="text" placeholder="your email">
+            <button>SUBSCRIBE</button>
+        </div>
+    </form>
+    <script src="script.js"></script>
 </body>
-<!-- hw: do whatever -->
+<!-- hw: write only tags for footer -->
+
 </html>

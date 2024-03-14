@@ -54,10 +54,14 @@ header button{
 
 h2{
     color: #222;
+    font-family: "Playfair Display", serif;
+    font-weight: 200;
 }
 a{
     text-decoration: none;
     color: #333;
+    font-family: "Poppins", sans-serif;
+
 } 
 
 #searchbtn{
@@ -84,7 +88,7 @@ header #lower{
     padding: 20px 0;
 }
 
-button:hover, a:hover{
+button:hover, header a:hover{
     
     background-color: #eeeeee;
     cursor: pointer;
@@ -204,6 +208,8 @@ h3{
 #projects{
     display: flex;
     flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .project{
@@ -213,16 +219,253 @@ h3{
     background-size: 30%;
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
 }
 
 .taro{
     background-image: url("img/side.webp");
+    background-size: cover;
+
 }
 
 .charity{
     background-image: url("img/charity.webp");
+    background-size: cover;
 }
 
 .objects{
     background-image: url("img/books.webp");
+}
+
+#projects a{
+    text-decoration: underline;
+}
+
+
+
+.projectinfo{
+    position: absolute;
+    bottom: 150px;
+    left: 255px;
+    text-align: left;
+}
+
+.taro .projectinfo{
+    color: #fff;
+}
+
+.taro a{
+    color: #ffffff;
+}
+
+.charity .projectinfo{
+    color: #fff;
+}
+
+.charity a{
+    color: #fff;
+}
+
+
+#hitdeals a img{
+    width: 20px;
+    filter: invert(100%);
+    margin-left: 10px;
+}
+
+.lines{
+    position: absolute;
+    z-index: 6;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+}
+
+.line{
+    height: 2px;
+    width: calc(25% - 4px) ;
+    background-color: #ffffff42;
+    margin: 2px;
+}
+
+.darkline{
+    background-color: #00000042;
+}
+
+#hitdealstop{
+    display: flex;
+    justify-content: space-between;
+}
+
+#hitdeals a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+}
+
+#hitdeals{
+    margin: 90px 0 40px;
+}
+
+.aboutus h2{
+    margin-top: 90px;
+    font-family: "Playfair Display", serif;
+    color: #222;
+}
+
+.aboutus p{
+    margin-top: 45px;
+    font-family: "Poppins", sans-serif;
+    color: #686868;
+    font-size:10px ;
+    width: 70%;
+}
+
+.greysection{
+    background-color: #f3f3f3;
+    display: flex;
+    padding: 90px 0 ;
+}
+
+.greysection .container{
+    display: flex;
+    /* align items by not the main axis */
+    align-items: center;
+}
+
+.greysection h1{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    color: #414141;
+    font-weight: 200;
+}
+
+.greysection a img{
+    width: 20px;
+    margin-left: 10px;
+}
+
+.greysection a{
+    margin-top: 40px;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    display: flex;
+}
+
+.greysection img{
+    width: 40%;
+    
+}
+
+.certificate{
+    width: 60%;
+}
+
+.email h3{
+    text-align: center;
+    font-weight: 400;
+}
+
+.email{
+    margin-top: 90px;
+}
+
+#slidercontainer{
+    height: 300px;
+    position: relative;
+}
+
+.slider{
+    position: absolute;
+    height: 100%;
+    display: flex;
+    width: 100%;
+}
+
+.slide{
+    width: calc(100% / 4 - 20px);
+    margin: 0 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: "Poppins", sans-serif;
+}
+
+.slidetop{
+    width: 100%;
+    position: relative;
+    height: 220px;
+    margin-top: 40px;
+
+}
+
+.slidetop button{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 5;
+    border: none;
+    background: none;
+    background-image: url("img/heart.svg");
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .5;
+    transition: .3s;
+    
+}
+
+.slidetop button:hover{
+    opacity: 1;
+}
+
+.slide img{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.slide h6{
+    width: 100%;
+    line-height: 40px;
+    font-weight: 100;
+}
+
+.slide h5{
+    line-height: 40px;
+    font-weight: 300;
+}
+
+.email input{
+    width: 100%;
+  padding: 12px 20px;
+  margin: 8px 8px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  box-sizing: border-box;
+  height: 45px;
+}
+
+.email .container{
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-top: 30px ;
+      
+}
+
+.email button{
+    width: 40%;
+    background-color: #222;
+    color: #eeeeee;
+    height: 45px;
+    border: none;
+    border-radius: 2px;
+
 }
