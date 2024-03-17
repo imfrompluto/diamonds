@@ -469,3 +469,77 @@ h3{
     border-radius: 2px;
 
 }
+
+footer{
+    border-top: 1px solid #acacac;
+    margin: 90px 0;
+}
+
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+footer img{
+    width: 100px;
+}
+
+footer #first{
+    display: flex;
+}
+
+footer #second a{
+    display: block;
+}
+
+footer #third{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer h5{
+    width: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+}
+
+footer #third a{
+    width: 40px;
+    height: 40px;
+    background-image: url("img/vk.svg");
+    display: block;
+    border:  1px solid black;
+    transition: .5s;
+    background-size: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: .5;
+    border-radius: 30px;
+    margin-right: 10px;
+}
+
+footer #third a:hover{
+    opacity: 1;
+
+}
+
+footer #third #tele{
+    background-image: url("img/telegram.svg");
+}
+
+footer #third #whats{
+    background-image: url("img/whatsapp.svg");
+}
+
+footer p{
+    width: 100%;
+    
+}
+
+.line{
+    border-bottom: 1px solid #acacac;
+    width: 100%;
+    margin: 45px 0;
+}
