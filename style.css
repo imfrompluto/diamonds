@@ -475,18 +475,31 @@ footer{
     margin: 90px 0;
 }
 
+footer a{
+    color: #555;
+}
+
+footer a:hover{
+    color: #222;
+    text-decoration: underline;
+}
+
 footer .container{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: 90px;
 }
 
 footer img{
     width: 100px;
+    margin-right: 90px;
 }
 
 footer #first{
     display: flex;
+    align-items: flex-start;
+
 }
 
 footer #second a{
@@ -535,6 +548,7 @@ footer #third #whats{
 
 footer p{
     width: 100%;
+    font-family: "Poppins", sans-serif;
     
 }
 
